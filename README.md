@@ -23,7 +23,7 @@ Refer to the output from `dashcli` (above) for DASH usage.
 ## Example
 
 ```
-$ docker run -it --rm --network=host dashcli:latest -h 192.168.10.11 -S http -p 623 discover info
+$ docker run -it --rm dashcli:latest -h 192.168.10.11 -S http -p 623 discover info
 
 
 DASH system(s) discovered:
